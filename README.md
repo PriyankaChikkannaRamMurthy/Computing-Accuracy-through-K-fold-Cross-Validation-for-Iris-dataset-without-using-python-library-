@@ -26,13 +26,11 @@ Finally average error is computed and accuracy is calculated for the K-fold.
 
 This is the summary of the project code.
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 1. Problem Sections:
 • Loading Iris Dataset and reading it
 The Iris dataset is taken from the http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data repository.
-Later it is converted to a csv readable file format. It is read into 2 matrices with “x_features” of 150x4 matrix and “y_data” of 150x1 matrix.
-Next, we append the “x_features” matrix with column- 1 matrix to fill the position of x0 value to be 1’s for all 150 observations.
+Later it is converted to a csv readable file format. It is read into 2 matrices with “x_features” of 150x4 matrix and “y_data” of 150x1 matrix. Next, we append the “x_features” matrix with column- 1 matrix to fill the position of x0 value to be 1’s for all 150 observations.
 • Training the model using Linear Regression
 Estimator for beta values calculated using the formula.
 Sum of the squared error calculated using the formula.

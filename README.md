@@ -3,11 +3,12 @@
 File name:
 Project1.py
 
-iris.csv - to be present in the same folder as the pyhton file is.
+iris.csv - to be present in the same folder as the python file is.
 
 value of kfold = 10 [passed to the program]
 
 Code Logic:
+
  Initially it was coded using the Jupyter Notebook and then downloaded as python file and been submitted.
  Pycharm is the IDE used.
  Python - 3.6 
@@ -26,7 +27,7 @@ Finally average error is computed and accuracy is calculated for the K-fold.
 
 This is the summary of the project code.
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 1. Problem Sections:
 • Loading Iris Dataset and reading it
 The Iris dataset is taken from the http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data repository.
@@ -36,7 +37,8 @@ Estimator for beta values calculated using the formula.
 Sum of the squared error calculated using the formula.
 • Classification of the trained model
 • N-fold cross validation
-Done using sklearn library for getting the indices of the training set and the testing set for X and Y matrices. For k-folds of 10 values the model is trained and tested using linear regression.
+Done using sklearn library for getting the indices of the training set and the testing set for X and Y matrices. 
+For k-folds of 10 values the model is trained and tested using linear regression.
 
 
 2. Data:
@@ -55,10 +57,15 @@ from sklearn.model_selection import KFold -> KFold() is used
 Below are the results for k-fold cross validation using the python language:
 
 Kvalue Error_rate 
+
 2      1.0368
+
 3      1.6419
+
 4      1.2145
-5      1.3163 
+
+5      1.3163
+
 10     0.3305
 
 Accuracy for 10 – folds : 99.26%

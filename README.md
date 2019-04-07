@@ -1,0 +1,1 @@
+# Computing-Accuracy-through-K-fold-Cross-Validation-for-Iris-dataset-without-using-python-library-
